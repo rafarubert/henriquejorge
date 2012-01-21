@@ -1,0 +1,41 @@
+/*body	{ background: #c7c7c7 url("../images/bg.jpg") no-repeat scroll top center}*/
+body	{ background-color: #c7c7c7}
+
+#top{
+	background: transparent url("../images/top.png") repeat-x scroll top center;
+	height: 147px;
+	width:100%;
+}
+
+h1#logo a { background: transparent url("../images/logo_hj.png") no-repeat scroll top center;display:block;height:81px;width:297px;margin-top:10px;}
+
+ul#menu{list-style: none;margin-left:280px;width:400px;}
+	ul#menu li {display:block;float:left;margin:-10px 12px 0 12px;padding:4px;}
+		 ul#menu li a{color:#5c5c5c;font-size:14px;text-decoration:none;}
+		 ul#menu li a:hover{color:#fff}
+/*.current{background: transparent url("../images/current.png") no-repeat scroll top center;height:29px;width:76px;display:block;color: #fff!important;}*/
+#main{}
+#left{ 
+	margin-top:-10px;
+	background: transparent url("../images/left_bg.jpg") no-repeat scroll top center;
+	height:554px;
+	width:263px;
+	
+ }
+#right{}
+#banner{
+	margin:0 0 0 40px;
+	background: transparent url("../images/banner_bg.jpg") no-repeat scroll top center;
+	height:321px;
+	width:682px;
+	
+}
+
+.box{
+	background-color:#f1f1f1;
+	margin:0 0 10px 40px;
+	width:682px;
+	min-height:120px;
+}
+.ident{display:block;text-indent: -2000px}
+.clr{clear: both}
